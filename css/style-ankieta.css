@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'mytupiregular';
+    src: url('css/fonts/mytupi-webfont.woff2') format('woff2'),
+    url('css/fonts/mytupi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body,html {
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'mytupiregular', Arial, sans-serif;
+}
+
+html {
+    font-size:62.5%;
+}
+
+
+
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100vw;
+    height: 40vh;
+    background-color: #ffc935;
+}
+#greet-text {
+    font-size: 3em;
+}
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+    background-color: #ffc935;
+}
+section {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+button {
+    width: 300px;
+    height: 70px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background-color: #383838;
+    color: white;
+    font-size: 2.5em;
+}
+button:first-of-type {
+    margin-top: 30px;
+}
+
+button:active {
+    background-color: white;
+    color: #383838;
+    border: 1px solid #383838;
+}
+.first-qestion-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+.second-qestion-section, .third-qestion-section {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.first-question, .second-question, .third-question {
+    font-size: 2em;
+}
+
+.counter {
+    font-size: 2em;
+}
+
+#failure-info {
+    display: none;
+    font-size: 5.5em;
+
+}

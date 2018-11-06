@@ -1,5 +1,6 @@
 # recruitment-task
 Zadanie rekrutacyjne AdProfity - Junior Front End
+
 LIVE: http://adprofity.tomaszkondraciuk.pl/
 
 ver. 1.0
